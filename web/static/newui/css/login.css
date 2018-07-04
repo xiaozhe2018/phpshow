@@ -1,0 +1,145 @@
+*{margin:0;padding:0;box-sizing: border-box;-moz-box-sizing: border-box;color:#555;}
+html,body,#bg{
+	width:100%;
+	height:100%;
+}
+#bg{
+	position: absolute;
+	left:0;
+	top:0;
+	z-index: 2;
+	background: url("../images/login_light.png") no-repeat top center;
+}
+body{
+	padding-top:114px;
+	background-image: url("../images/login_bg.png");
+}
+.form{
+	width:660px;
+	margin:0 auto;
+}
+.clearfix,.form-control,.input {
+	*zoom:1;
+}
+.form-head{
+	height:100px;
+	margin-bottom:74px;
+	padding-top:56px;
+	background:url("../images/login_head.png") no-repeat center top;
+}
+.form-head>.logo {
+	margin:0 auto;
+	width:221px;
+	height:88px;
+	background-image: url("../images/login_logo.png");
+}
+
+.form-head>.logo,
+.form-error-tip,
+.form-body,
+.form-action{
+	position: relative;
+	z-index:3;
+}
+
+.form-body,
+.form-action {
+
+	width:300px;
+	margin:0 auto;
+}
+
+.form-control {
+	width:300px;
+	border-top:1px solid #ccc;
+}
+.form-control:first-child {
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px
+}
+.form-control:last-child {
+	border-bottom:1px solid #ccc;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px
+}
+.clearfix:after,
+.input:after,
+.form-control:after{
+	clear:both;
+	content: '';
+	display: block;
+	width:0;
+	height: 0;
+}
+.form-control label {
+	display: block;
+	float:left;
+	width:70px;
+	height:46px;
+	font-size:12px;
+	line-height: 46px;
+	text-align: center;
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+	background-color:#f7f7f7;
+}
+.input {
+	float:right;
+	background-color:#fff;
+	padding:11px 10px;
+	width:230px;
+	height:46px;
+	border-right:1px solid #ccc;
+}
+.input.error {
+	border-color:#ff5500;
+}
+.input>input {
+	display: block;
+	height:24px;
+	line-height: 24px;
+	border:none;
+	outline: 0;
+	width:100%;
+	color:#555;
+}
+
+.validate>input {
+	width:60px;
+	float:left;
+}
+.validate>img {
+	display: block;
+	float:right;
+}
+
+.form-action {
+	width:300px;
+}
+.form-action button {
+	display: block;
+	width:140px;
+	height:42px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px 0 #c0c0c0;
+}
+.bt_login {
+	float:left;
+	background-color:#4599f8;
+	color:#fff;
+	border:1px solid #347ed3;
+}
+
+.bt_reset {
+	float:right;
+	background-color:#fff;
+	color:#555;
+	border:1px solid #bbb;
+}
+
+.form-error-tip {
+	height:21px;
+	line-height: 21px;
+	text-align: center;
+	color:#ff5500;
+}

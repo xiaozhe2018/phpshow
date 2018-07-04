@@ -1,0 +1,25 @@
+.m-icon {
+	display: block;
+	width:20px;
+	height:20px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	overflow: hidden;
+	background-image: url(../images/menu2/default.png);
+}
+
+.m-icon-common {background-image: url(../images/menu2/common.png)}
+.m-icon-user {background-image: url(../images/menu2/user.png)}
+.m-icon-set {background-image: url(../images/menu2/set.png)}
+
+
+.on .m-icon,
+li:hover .m-icon  {background-image: url(../images/menu2/default_h.png)}
+
+.on .m-icon-common,
+li:hover .m-icon-common  {background-image: url(../images/menu2/common_h.png)}
+.on .m-icon-user,
+li:hover .m-icon-user  {background-image: url(../images/menu2/user_h.png)}
+
+.on .m-icon-set,
+li:hover .m-icon-set  {background-image: url(../images/menu2/set_h.png)}

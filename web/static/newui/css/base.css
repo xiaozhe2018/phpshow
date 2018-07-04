@@ -1,0 +1,89 @@
+*{margin:0;padding:0;}
+body,button, input, select, textarea { font: 12px/1 'Microsoft YaHei',Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif;}
+ul, ol { list-style: none; }
+i {font-style: none}
+fieldset, img { border: none; }
+h1 { font-size: 14px; }
+h2 { font-size: 14px; }
+h3 { font-size: 14px; }
+h4, h5, h6 { font-size: 100%; }
+a,a:hover {text-decoration: none;cursor:pointer;}
+
+.clearfix {zoom:1;}
+.clearfix:after{clear:both; content:'\0020'; display:block; height:0;}
+.fl {float:left;}
+.fr {float:right;}
+
+.c-orange {
+	color:#DF7235!important;
+}
+
+.c-blue {
+	color:#56a3f2!important;
+}
+.c-green {
+	color:#48d084!important;
+}
+
+.c-999 {
+	color:#999!important;
+}
+.c-333 {
+	color:#333!important;
+}
+.red {color:red!important;}
+
+.ub {
+	display: -webkit-box;
+}
+.ub-ov {
+	-webkit-box-orient:vertical;
+}
+
+.mt20 {margin-top:20px!important;}
+.mt10 {margin-top:10px!important;}
+.ml10 {margin-left:10px;}
+.p10 {padding:10px;}
+.pt10 {padding-top:10px;}
+.bg-light {
+	background-color:#fcfcfc
+}
+
+/**
+ * 滚动条美化
+ */
+::-webkit-scrollbar/*整体部分*/
+{
+width: 5px;
+height:5px;
+
+}
+::-webkit-scrollbar-track/*滑动轨道*/
+{
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+border-radius: 0px;
+background: rgba(0,0,0,0.1);
+}
+
+::-webkit-scrollbar-thumb/*滑块*/
+{
+border-radius: 5px;
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+background: rgba(0,0,0,0.2);
+}
+
+::-webkit-scrollbar-thumb:hover/*滑块效果*/
+{
+border-radius: 5px;
+-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+background: rgba(0,0,0,0.4);
+}
+
+/*日期控件跟ue冲突*/
+.calendar {
+	z-index: 999!important
+}
+
+@-moz-document url-prefix(http://),url-prefix(https://) {
+	button {line-height: normal!important}
+}
